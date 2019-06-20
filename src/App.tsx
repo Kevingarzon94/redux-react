@@ -1,16 +1,14 @@
-import * as React from 'react';
-import './App.css';
+import * as React from "react";
+import "./App.css";
 
-import Header from './components/Header';
-import Intro from './components/intro';
+import { Route } from "react-router";
+import Login from "./containers/Auth/Login";
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <Header />
-        <Intro  />
-        <Intro text='texto props2' />
+      <div>
+        <Route path="/" component={Login} />
       </div>
     );
   }
