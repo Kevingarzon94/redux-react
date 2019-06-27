@@ -10,14 +10,14 @@ import Title from "../../components/Title";
 export default class Login extends React.Component {
   public render() {
     return (
-      <Container center={true}>
+      <Container>
         <Card>
-          <Title>Iniciar sesiom</Title>
+          <Title>Registro</Title>
           <Input placeholder="Correo" label="CORREO" />
           <Input placeholder="Contraseña" label="CONTRASEÑA" />
           <Button block={true}>Enviar</Button>
           <Center>
-            <Link to="/register">Registrarse</Link>
+            <Link to="/">Iniciar sesión</Link>
           </Center>
         </Card>
       </Container>
