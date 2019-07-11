@@ -4,7 +4,7 @@ import Button from "../../components/Button";
 import Card from "../../components/cards";
 import Center from "../../components/center";
 import Container from "../../components/Container";
-import Input from "../../components/input";
+// import Input from "../../components/input";
 import Title from "../../components/Title";
 
 export default class Login extends React.Component {
@@ -13,8 +13,8 @@ export default class Login extends React.Component {
       <Container>
         <Card>
           <Title>Registro</Title>
-          <Input placeholder="Correo" label="CORREO" />
-          <Input placeholder="Contraseña" label="CONTRASEÑA" />
+          {/*          <Input placeholder="Correo" label="CORREO" />
+    <Input placeholder="Contraseña" label="CONTRASEÑA" />*/}
           <Button block={true}>Enviar</Button>
           <Center>
             <Link to="/">Iniciar sesión</Link>
